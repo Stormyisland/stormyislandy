@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pagewrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F9F4F2;
+}
+
+.section {
+    width: 100%;
+    padding: 20px;
+}
+
+.navwrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.beige--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo--icon img {
+    width: 150px;
+}
+
+/* Additional custom styles */
+.website--frame:hover .website--frame-header {
+    background-color: #6942bb;
+}
+
+.website--frame:hover .proj--textwrapper {
+    background-color: #6942bb;
+}
+
+.website--frame:active .website--frame-header {
+    background-color: #8d5cf5;
+}
+
+.website--frame:active .proj--textwrapper {
+    background-color: #8d5cf5;
+}
+
+.website--frame:hover .website--frame-header-no-hover {
+    background-color: #eedfd9;
+}
+
+.website--frame:hover .framewrapper-no-color {
+    background-color: #eedfd9;
+}
+
+.website--frame:active .website--frame-header-no-hover {
+    background-color: #dfc7be;
+}
+
+.website--frame:active .framewrapper-no-color {
+    background-color: #dfc7be;
+}
+
+.website-proj--thumbnailwrap:hover .hover--eyewrap {
+    opacity: 100%;
+}
+
+.website-proj--thumbnailwrap:hover .hover--eye {
+    transform: translate(0, 0);
+}
+
+.project--popup-modal, .contact--pup-up-modal {
+    pointer-events: none;
+}
+
+.project--modal-item {
+    pointer-events: none;
+}
+
+.is--modal {
+    pointer-events: auto;
+}
+
+.disappear {
+    pointer-events: none !important;
+}
